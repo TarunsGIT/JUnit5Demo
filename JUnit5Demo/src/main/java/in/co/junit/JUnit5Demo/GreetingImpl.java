@@ -10,8 +10,12 @@ public class GreetingImpl implements Greeting {
 			throw new IllegalArgumentException();
 
 		}
+		
+		System.out.println(name);
 
 		return "Hello " + name;
+		
+		
 	}
 
 }
